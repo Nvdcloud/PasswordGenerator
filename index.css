@@ -1,0 +1,93 @@
+@font-face {
+    src: url("Karla.ttf");
+    font-family: Karla;
+}
+
+
+body {
+    margin: 0;
+    Width: 550px;
+    Height: 550px;
+    background: #1F2937;
+    text-align: center;
+    margin: auto auto;
+
+}
+h1 {
+    font-family: 'Karla','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    size: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+#highlight {
+    color: #4ADF86
+}
+
+#hero {
+    margin-top: 115px; 
+    margin-bottom: 150px;
+    width: 354px;
+    height: 80px;
+    text-align: left;
+    
+}
+
+h1 {
+    width: 446px;
+
+}
+
+p {
+    color: #D5D4D8;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+}
+
+hr {
+    border: 1px solid #2F3E53;
+}
+
+.generator {
+    margin-bottom: 35px;
+    margin-top: 0px;
+}
+
+label {
+    color: #D5D4D8;
+}
+
+#password-length {
+    width: 130px;
+    border-radius: 6px;
+    
+}
+
+.password-box {
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    margin: 2px;
+    border-radius: 6px;
+    margin-right: 24px;;
+    line-height: 40px;
+    color: #4ADF86;
+}
+
+button {
+  display: flex;
+  padding: 9px 17px 9px 15px;
+  margin-bottom: 35px;
+  background: #10B981;
+  border: none;
+  border-radius: 6px;
+  color: #ffff;
+  
+}
+
+.passwordGen {
+    display: flex;
+    justify-content: center;
+    
+}
