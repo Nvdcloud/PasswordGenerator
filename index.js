@@ -49,5 +49,9 @@ function copyText2() {
     alert("Copied the text: " + el.value);
 }
 
+function lightMode(){
+    let element = document.body;
+   element.classList.toggle("light-mode");
+}
 
 
